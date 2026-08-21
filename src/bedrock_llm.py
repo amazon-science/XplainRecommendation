@@ -119,12 +119,15 @@ class BedrockLLM:
         explanation : str
             Generated explanation
         """
-        # Construct prompt
+        # Construct dataset-optimized prompts
         if dataset == "amazon":
-            task_desc = "Given the book title, book profile, and user profile, please explain why the user would buy this book within 50 words."
+            task_desc = "Given the book title, book profile, and user profile, explain why the user would buy this book. Be specific about book content and user interests. Use exactly 40-50 words."
             item_type = "Book"
-        elif dataset in ["google", "yelp"]:
-            task_desc = "Given the business title, business profile, and user profile, please explain why the user would enjoy this business within 50 words."
+        elif dataset == "yelp":
+            task_desc = "Given the business title, business profile, and user profile, explain why the user would enjoy this business. Focus on food, atmosphere, and user preferences. Use exactly 40-50 words."
+            item_type = "Business"
+        elif dataset == "google":
+            task_desc = "Given the business title, business profile, and user profile, explain why the user would visit this business. Be concise and direct. Use exactly 25-30 words."
             item_type = "Business"
         else:
             task_desc = "Explain why the user would be interested in this item within 50 words."

@@ -159,6 +159,39 @@ class SimplePPOAgent:
         self.log_probs = []
         self.values = []
     
+    def get_top_k_actions(
+        self,
+        state: np.ndarray,
+        k: int = 3,
+        action_mask: np.ndarray = None
+    ) -> List[Tuple[int, float]]:
+        """
+        Get top-k actions with their probabilities.
+        
+        Args:
+            state: Current state
+            k: Number of top actions to return
+            action_mask: Binary mask of valid actions (1 = valid, 0 = invalid)
+            
+        Returns:
+            List of (action, probability) tuples, sorted by probability descending
+        """
+        state_tensor = torch.FloatTensor(state).unsqueeze(0).to(self.device)
+        
+        with torch.no_grad():
+            action_probs = self.policy(state_tensor)
+        
+        # Apply action mask if provided
+        if action_mask is not None:
+            mask_tensor = torch.FloatTensor(action_mask).to(self.device)
+            action_probs = action_probs * mask_tensor
+            action_probs = action_probs / (action_probs.sum() + 1e-10)
+        
+        # Get top-k actions
+        top_k_probs, top_k_indices = torch.topk(action_probs[0], k)
+        
+        return [(idx.item(), prob.item()) for idx, prob in zip(top_k_indices, top_k_probs)]
+
     def select_action(
         self,
         state: np.ndarray,
@@ -197,7 +230,7 @@ class SimplePPOAgent:
             # Sample from distribution
             dist = torch.distributions.Categorical(action_probs)
             action = dist.sample().item()
-            log_prob = dist.log_prob(torch.tensor(action)).item()
+            log_prob = dist.log_prob(torch.tensor(action).to(self.device)).item()
         
         return action, log_prob, value.item()
     

@@ -61,3 +61,23 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.bak
+
+# Safety net: local-only research clutter, never to be committed
+/Paper review/
+/paper/
+/paper_v2.tex
+/paper_v3.tex
+/APPROACH.md
+/DEPLOYMENT.md
+/FEEDBACK_v3.md
+/Method_comparison.md
+/result.txt
+/custom.bib
+/figures/
+*.zip
+*.pdf
+
+# External dataset repo clones (cloned by the user per README prerequisites,
+# never part of this repo)
+/XRec/
+/G-Refer/

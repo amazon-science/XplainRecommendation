@@ -1,25 +1,14 @@
 # XplainRecommendation Dependencies
 
-# Core ML/DL
-torch>=2.0.0
-torchvision>=0.15.0
-torch-geometric>=2.3.0
-
-# Graph and Data Processing
-networkx>=3.0
-pandas>=2.0.0
-numpy>=1.24.0
-
-# Visualization
-matplotlib>=3.7.0
-
-# AWS Bedrock
-boto3>=1.28.0
-
-# Utilities
-tqdm>=4.65.0
-
-# Evaluation (optional but recommended)
-evaluate>=0.4.0
-bert-score>=0.3.13
-transformers>=4.30.0
+torch
+lightgbm
+xgboost
+pandas
+numpy
+scikit-learn
+sentence-transformers
+evaluate
+bert-score
+transformers
+tqdm
+boto3
