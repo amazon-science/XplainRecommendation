@@ -25,7 +25,7 @@ everything from raw XRec data, start at §1.
 ```
 XplainRecommendation/
 ├── README.md                    ← this file
-├── LICENSE                      ← Apache License 2.0
+├── LICENSE                      ← CC-BY-NC-4.0
 ├── NOTICE
 ├── CONTRIBUTING.md
 ├── CODE_OF_CONDUCT.md
@@ -435,5 +435,7 @@ repo builds on:
 
 ## License
 
-This project is licensed under the Apache License 2.0 — see
-[LICENSE](LICENSE) and [NOTICE](NOTICE).
+This project is licensed under the Creative Commons Attribution-NonCommercial
+4.0 International License (CC-BY-NC-4.0) — see [LICENSE](LICENSE) and
+[NOTICE](NOTICE). This code is released solely for academic and scientific
+reproducibility purposes accompanying the associated publication.
