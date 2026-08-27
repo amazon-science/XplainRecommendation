@@ -437,5 +437,4 @@ repo builds on:
 
 This project is licensed under the Creative Commons Attribution-NonCommercial
 4.0 International License (CC-BY-NC-4.0) — see [LICENSE](LICENSE) and
-[NOTICE](NOTICE). This code is released solely for academic and scientific
-reproducibility purposes accompanying the associated publication.
+[NOTICE](NOTICE).
