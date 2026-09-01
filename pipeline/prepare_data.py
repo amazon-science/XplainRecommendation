@@ -1,3 +1,6 @@
+# Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+# SPDX-License-Identifier: CC-BY-NC-4.0
+
 """
 One-shot orchestrator: turn XRec's published Google-Local data into the
 training and inference tables this project consumes.

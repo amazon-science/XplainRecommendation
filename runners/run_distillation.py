@@ -1,3 +1,6 @@
+# Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+# SPDX-License-Identifier: CC-BY-NC-4.0
+
 """
 Policy distillation from LambdaRank teacher → PPO-style MLP student,
 followed by optional GRPO fine-tuning.

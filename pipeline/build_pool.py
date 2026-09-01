@@ -1,3 +1,6 @@
+# Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+# SPDX-License-Identifier: CC-BY-NC-4.0
+
 """
 Build the candidate pool for 5,000 train + 3,000 test pairs from XRec.
 

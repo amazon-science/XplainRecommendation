@@ -1,3 +1,6 @@
+# Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+# SPDX-License-Identifier: CC-BY-NC-4.0
+
 """
 Deterministically sample 5,000 training pairs from XRec's trn.pkl, FILTERED
 to items that have same-business reviews available in our local cache

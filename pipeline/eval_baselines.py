@@ -1,3 +1,6 @@
+# Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+# SPDX-License-Identifier: CC-BY-NC-4.0
+
 """
 Compute G-Refer + XRec baselines on the exact same 3,000 XRec test pairs
 our method evaluates on.

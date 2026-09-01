@@ -1,3 +1,6 @@
+# Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+# SPDX-License-Identifier: CC-BY-NC-4.0
+
 """MovieLens reranker: adapts the G-Refer style-F pipeline to MovieLens-1M.
 
 Differences from the Google pipeline:

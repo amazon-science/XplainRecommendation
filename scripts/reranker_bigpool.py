@@ -1,3 +1,6 @@
+# Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+# SPDX-License-Identifier: CC-BY-NC-4.0
+
 """Reranker: expand the candidate pool with new generation styles to raise
 the oracle ceiling (which currently caps us at 0.5355).
 

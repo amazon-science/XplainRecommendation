@@ -1,3 +1,6 @@
+# Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+# SPDX-License-Identifier: CC-BY-NC-4.0
+
 """
 Score every method's picked explanations with all three metrics:
 BERTScore-F1, BARTScore, USR.

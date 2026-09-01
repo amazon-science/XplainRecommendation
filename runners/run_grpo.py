@@ -1,3 +1,6 @@
+# Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+# SPDX-License-Identifier: CC-BY-NC-4.0
+
 """
 GRPO (Group-Relative Policy Optimization) trainer for the same
 explanation-selection bandit as the paper's PPO method.

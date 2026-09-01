@@ -1,3 +1,6 @@
+# Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+# SPDX-License-Identifier: CC-BY-NC-4.0
+
 """
 DPO (Direct Preference Optimization, Rafailov et al. 2023) on the same
 explanation-selection bandit.

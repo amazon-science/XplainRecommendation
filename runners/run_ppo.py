@@ -1,3 +1,6 @@
+# Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+# SPDX-License-Identifier: CC-BY-NC-4.0
+
 """
 Shared reward-shaping runner for PPO ablation experiments in
 `approach_ppo_0.4864/experiments/`.

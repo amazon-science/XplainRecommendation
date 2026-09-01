@@ -1,3 +1,6 @@
+# Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+# SPDX-License-Identifier: CC-BY-NC-4.0
+
 """Add style-F candidates (length-tuned, biz-name-allowed) to the bigpool
 and re-run the ensemble. F targets the actual G-Refer ref distribution
 (median 28 words, 12% mention biz name).

@@ -1,3 +1,6 @@
+# Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+# SPDX-License-Identifier: CC-BY-NC-4.0
+
 """
 5-seed PPO / GRPO / DPO / Distillation sweep on MovieLens tables.
 
