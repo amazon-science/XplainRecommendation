@@ -433,6 +433,13 @@ repo builds on:
 }
 ```
 
+## Authors
+
+- [Tanay Chowdhury](https://github.com/tanayz)
+- Saeideh Shahrokh Esfahani
+
+Both authors contributed equally to this work.
+
 ## License
 
 This project is licensed under the Creative Commons Attribution-NonCommercial
