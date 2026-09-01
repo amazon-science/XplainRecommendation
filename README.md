@@ -436,7 +436,7 @@ repo builds on:
 ## Authors
 
 - [Tanay Chowdhury](https://github.com/tanayz)
-- Saeideh Shahrokh Esfahani
+- [Saeideh Shahrokh Esfahani](https://github.com/saeideh-sh)
 
 Both authors contributed equally to this work.
 
